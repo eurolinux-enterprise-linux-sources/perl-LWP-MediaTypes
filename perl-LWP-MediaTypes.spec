@@ -1,6 +1,6 @@
 Name:           perl-LWP-MediaTypes
 Version:        6.02
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Guess media type for a file or a URL
 License:        (GPL+ or Artistic) and Public Domain
 Group:          Development/Libraries
@@ -48,6 +48,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 6.02-2
+- Mass rebuild 2013-12-27
+
 * Thu Nov 22 2012 Petr Šabata <contyk@redhat.com> - 6.02-1
 - 6.02 bump
 - Drop command macros
